@@ -134,29 +134,3 @@ while cacheMethod != "exit":
             print("Invalid input! Please select 1, 2 or Q.")
 
 print("\nProgram exited.")
-
-
-
-
-# while True:
-#     # Reset requests and cache, update with user requests until 0 entered
-#     cache = []
-#     requests = []
-#     updateRequests()
-#     # Ask user for cache method and implement cache method with user request. If "Q" entered for cache method, program
-#     # exits
-#     while True:
-#         cacheMethod = getCacheMethod()
-#         if cacheMethod == "exit":
-#             exit()
-#         elif cacheMethod == "FIFO":
-#             fifo()
-#             print("\nFinal cache = " + str(cache))
-#             break
-#         elif cacheMethod == "LFU":
-#             lfu()
-#             print("\nFinal cache = " + str(cache))
-#             break
-#         else:
-#             print("Invalid input. Please select a cache method.")
-#
