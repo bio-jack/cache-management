@@ -1,7 +1,3 @@
-# JACK BROWN
-# 201056294
-# COMP517 ASSIGNMENT 3 - Cache Management
-
 # Global vars
 cache = []
 requests = []
